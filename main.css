@@ -1,0 +1,1005 @@
+/**********COMMON******************/
+[type=radio] {
+  display: none;
+}
+
+
+.navbar{
+	overflow: unset !important;
+}
+	.manu{
+		font-family: Montserrat;
+}
+font-style: normal;
+font-weight: 500 !important;
+font-size: 12px;
+line-height: normal  !important;
+
+color: #BABABA  !important;
+
+	}
+	.manuu{
+		font-family: Montserrat;
+font-style: normal;
+font-weight: 500 !important;
+font-size: 12px;
+line-height: normal  !important;
+
+color: #BABABA  !important;
+
+	
+	}
+	.manu:hover{
+		font-family: Montserrat;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 12px;
+line-height: normal !important;
+text-align: center;
+
+color: #FFFFFF !important;
+	}
+	.navbar ul li:hover{
+	border-bottom: 2px solid #fab449;
+	
+}
+.navbar-nav>li>.dropdown-menu>li>a {
+	color: white !important;
+	padding: 15px 15px 15px 20px;
+}
+.navbar-nav>li>.dropdown-menu>li>a:hover {
+	color: white !important ;
+	background-color: initial !important;
+	}
+.inner li{
+	border:unset !important;
+}
+
+#slider {
+  height: 25vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+#slider label {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+  
+  transform: translate3d(-70%,0,-200px);
+}
+
+#s1:checked ~ #slide5, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+ 
+  transform: translate3d(-35%,0,-100px);
+}
+
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+ 
+  transform: translate3d(0,0,0);
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+ 
+  transform: translate3d(35%,0,-100px);
+}
+
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+ 
+  transform: translate3d(70%,0,-200px);
+}
+
+
+
+
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background: white;
+	/*	font-family: 'Montserrat', sans-serif;*/
+}
+
+
+/*Common CSS*/
+
+#heading-background{
+	position:absolute;
+	z-index:0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#bg-text
+{
+	color:lightslategray;
+	font-size:100px;
+	opacity: 0.1;
+	text-align: center;
+	font-weight:lighter;
+}
+
+#heading{
+	position:absolute;
+	text-align: center;
+	z-index:1;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding-top: 35px;
+}
+
+#row-content{
+	padding-top:140px;
+}
+
+#imun-partner, #imun-intro{
+	padding:40px 0px 40px 0px;
+}
+
+/**************************************** Navbar************************************* */
+.navbar-brand{
+	color:white !important;
+}
+.navbar-brand p{
+	margin-top: -48px;
+	margin-left: 65px;
+	font-size: 15px;
+
+}
+
+.navbar{
+	background: #172337;
+	border:0px solid white;
+	border-radius:0px;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+}
+.navbar ul li a{
+	
+	font-weight: bolder;
+	letter-spacing: 0.5px;
+}
+.navbar ul li:hover{
+	border-bottom: 2px solid rgb(17,131,188);
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white !important;
+	border:1px solid white;
+	border-radius: 0px;
+	height: 3px;
+	width: 32px;
+}
+
+.navbar-right{
+	padding-top: 10px;
+}
+
+.navbar .navbar-brand img {
+	height: 70px;
+	margin-top: -17px;
+}
+.navbar-default .navbar-toggle{
+	margin-top: 22px;
+	border-color:transparent !important;
+	font-size: 32px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background: transparent !important;
+	border-color:transparent !important;
+
+}
+div#navbar {
+	margin-top: 8px;
+}
+.navbar-collapse{
+	background-color: #121e32 !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #555;
+	background-color: transparent;
+}
+.navbar-nav>li>.dropdown-menu>li>a {
+	color: black !important;
+}
+
+
+
+/******************************IMUN Intro*************************/
+#imun-intro p{
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+
+}
+#imun-intro a{
+	color:white;
+}
+#imun-intro .btn{
+	background: #15477a;
+	color:white;
+	padding: 05px 30px 05px 30px;
+	border:1px solid white;
+	border-radius: 22px;
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	font-weight: bold;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+
+}
+
+/***********************************************IMUN PARTNERS***********************/
+#imun-partner{
+	background: white;
+}
+#imun-partner img{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/******************************IMUN SPONSER******************************************/
+#imun-sponser{
+	padding-bottom: 30px;
+}
+#imun-sponser img{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+/*****************************IMUN TESTIMONIALS*********************************/
+.testimonial{ margin: 0 20px 50px;
+	background: white;
+	padding:14px 10px 14px 10px;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+
+
+}
+.testimonial .pic{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin: 0 15px 15px 0;
+}
+.testimonial .pic img{
+	width: 100%;
+	height: auto;
+	/*	border-radius: 50%;*/
+}
+.testimonial .testimonial-profile{
+	display: inline-block;
+	position: relative;
+	top: 15px;
+}
+.testimonial .title{
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2f2f2f;
+	text-transform: capitalize;
+	margin: 0 0 7px 0;
+}
+.testimonial .post{
+	display: block;
+	font-size: 14px;
+	color: #5d7aa7;
+}
+.testimonial .description{
+	padding: 20px 22px;
+	background: #1f487e;
+	font-size: 15px;
+	color: #fff;
+	line-height: 25px;
+	margin: 0;
+	position: relative;
+}
+body{overflow-x: hidden;}
+.testimonial .description:before,
+.testimonial .description:after{
+	content: "";
+	border-width: 18px 0 0 18px;
+	border-style: solid;
+	border-color: #5d7aa7 transparent transparent;
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+}
+.testimonial .description:after{
+	border-width: 18px 18px 0 0;
+	left: auto;
+	right: 0;
+}
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	opacity: 0.8;
+	background: #fff;
+}
+.owl-prev:before,
+.owl-next:before{
+	content: "\f053";
+	font-family: "FontAwesome"; font-weight: 900;
+	font-size: 20px;
+	color: #1f487e;
+}
+.owl-next:before{ content: "\f054"; }
+
+
+/********************IMUN-FOOTER**********************/
+
+#imun-footer{
+	background: #172337;
+	padding:30px 0px 0px 0px;
+	color:#ceccce;
+}
+#imun-footer p{
+	font-size: 15px;
+	text-align: justify;
+}
+#imun-footer h4{
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1.2px;
+}
+#imun-footer .input-group-addon{
+	background: #15477a;
+	color:white;
+	border:1px solid #15477a;
+}
+#imun-footer .col-md-4.input-group{
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+}
+#imun-footer i{
+	padding-right: 20px;
+	border:1px solid #1f487e;
+	text-align: center;
+	padding:05px;
+}.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+/*****RESPONSIVE****/
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+	#imun-detailed-conference .nav-tabs > li {
+		float:none;
+		display:inline-block;
+		zoom:1;
+	}
+
+	#imun-detailed-conference .nav-tabs {
+		text-align:center;
+	}
+	#imun-detailed-conference .tab-content{
+		padding-top: 20px;
+	}
+	#imun-detailed-conference .nav-tabs > li > a{
+		font-size: 17px;
+	}
+
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	#imun-detailed-conference .nav-tabs > li {
+		float:none;
+		display:inline-block;
+		zoom:1;
+	}
+
+	#imun-detailed-conference .nav-tabs {
+		text-align:center;
+	}
+	#imun-detailed-conference .tab-content{
+		padding-top: 20px;
+	}
+
+
+
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px){
+
+
+	.navbar ul li a{
+		color:white !important;
+		font-weight: bolder;
+		letter-spacing: 0.5px;
+		font-size: 11px;
+	}
+	#imun-detailed-conference .nav-tabs > li {
+		float:none;
+		display:inline-block;
+		zoom:1;
+	}
+
+	#imun-detailed-conference .nav-tabs {
+		text-align:center;
+	}
+	#imun-detailed-conference .tab-content{
+		padding-top: 20px;
+	}
+	/*
+	.navbar-right{
+	margin-top: -20px;
+}
+	*/
+
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	#imun-sponser img{
+		width: 30%;
+	}
+	#imun-detailed-conference .nav-tabs > li {
+		float:none;
+		display:inline-block;
+		zoom:1;
+	}
+
+	#imun-detailed-conference .nav-tabs {
+		text-align:center;
+	}
+	#imun-detailed-conference .tab-content{
+		padding-top: 20px;
+	}
+
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.navbar{
+		padding-bottom: 0px; 
+	}
+	#bg-text
+	{
+		color:lightslategray;
+		font-size:20px;
+		opacity: 0.1;
+		text-align: center;
+		font-weight:lighter;
+	}
+	#imun-sponser img{
+		width: 30%;
+	}
+	#imun-detailed-conference .nav-tabs>li>a {
+		margin-right: -8px;
+		line-height: 1.42857143;
+		border: 1px solid transparent;
+		border-radius: 4px 4px 0 0;
+		font-size: 13px;
+	}
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: white;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	span.pull-right.footer-social {
+		padding-top: 25px;
+	}
+	
+
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	#imun-banner .banner-text h1{
+		color:white;
+		text-align: center;
+		font-weight: bolder;
+		line-height: 38px;
+		font-size: 32px;
+
+	}
+	.navbar{
+		padding-bottom: 10px;  
+
+	}
+	#bg-text
+	{
+		color:lightslategray;
+		font-size:40px;
+		opacity: 0.1;
+		text-align: center;
+		font-weight:lighter;
+	}
+	#imun-sponser img{
+		width: 50%;
+	}
+	#imun-detailed-conference .nav-tabs>li>a {
+		margin-right: -9px;
+		line-height: 1.42857143;
+		border: 1px solid transparent;
+		border-radius: 4px 4px 0 0;
+		font-size: 13px;
+	}
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+	
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	span.pull-right.footer-social {
+		padding-top: 25px;
+	}
+
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 1px;
+  background-color: #bbb;
+  border-radius: 400%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+.active, .dot:hover {
+  background-color:  #347ccc;
+}
+
+
+#footer {
+  background: #0e3660;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #0e3660;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 10px;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-left: 4px solid #18d26e;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #eee;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #18d26e;
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top h4::before, #footer .footer-top h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+}
+
+
+
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 8px;
+  color: #ddd;
+}
+
+#footer .footer-top .footer-links ul li {
+  border-bottom: 0px solid #333;
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #eee;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #18d26e;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #18d26e;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #13a456;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #ddd;
+}
+
+
+.vl {
+  border-left: 0px solid red;
+  height: 100px;
+  position: absolute;
+  /*left: 50%;*/
+  margin-left: -3px;
+  top: 0;
+}
+
+.verticalLine {
+  border-right:  thick solid white;
+  /*margin: 0px 0px 0px 100px;	*/
+}
+
+.verticalLine-1 {
+  border-right:  #0e3660;
+  /*margin: 0px 0px 0px 100px;	*/
+}
+
+
+
+#imun-banner .icon {
+  float: left;
+}
+
+#imun-banner .icon i {
+
+  color: orange;
+  font-size: 36px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#imun-banner .title {
+  margin-left: 40px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#imun-banner .title a {
+  color: white;
+}
+#imun-banner .description {
+  font-size: 16px;
+ 
+ 
+}
+
+
+
+/* Services Section
+--------------------------------*/
+#services {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#services .box {
+  margin-bottom: 30px;
+}
+
+#services .icon {
+  float: left;
+
+}
+
+#services .icon i {
+	
+  color: #18d26e;
+  font-size: 60px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#services .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#services .btn {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: black;
+}
+
+#services .box:hover .title a {
+  color: #18d26e;
+}
+
+#services .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+
+/*=================================================================
+  Our Team
+  ==================================================================*/
+.team-member {
+  /*background: green;*/
+  /*background: url("img/about-bg.jpg") center top no-repeat fixed;*/
+  margin-bottom: 100px;
+}
+
+.team-member:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.team-member:hover .mask {
+  opacity: 100;
+}
+
+.team-member .member-content {
+  padding: 25px 0;
+}
+.team-member .member-content-1 {
+  padding: 25px 0;
+   background: red;
+}
+
+
+
+.team-member .member-content h3 {
+  font-size: 20px;
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.team-member .member-content span {
+  font-size: 14px;
+  color: #555;
+}
+
+.team-member .member-content p {
+  color: #777;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.team-member .member-content ul {
+  text-align: center;
+  position: relative;
+}
+
+.team-member .member-content ul li {
+  margin-right: 7px;
+}
+
+.team-member .member-content ul li a {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.team-member .member-content ul li a i {
+  color: #f0326b;
+  background: linear-gradient(100deg, #f9643d, #fe2a77);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.team-member .member-content ul li a::hover {
+  background-color: #6cb670;
+  border: 1px solid transparent;
+}
+
+.team-member .member-photo {
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 3px 28px;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius: 40px;
+}
+
+/* Green */
+.white {
+  border-color:orange;
+  color: orange;
+}
+.white:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.red {
+  border-color: white;
+  color: white;
+}
+
+.red:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.blue {
+  border-color: blue;
+  color: blue;
+}
+
+.blue:hover {
+  background-color: #4CAF50;
+  color: blue;
+}
+.orange {
+  border-color: orange;
+  color: orange;
+}
+
+.orange:hover {
+  background-color: #4CAF50;
+  color: orange;
+}
+
+.section-padding {
+  background: white;
+  margin-bottom: 7px;
+}
+.section-padding:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
